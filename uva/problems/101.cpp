@@ -6,7 +6,7 @@ int main(){
 	
 	vector< pair< int, stack<int> > > blocks;
 
-	for(int i = 0; i < 26; ++i){
+	for(int i = 0; i < 25; ++i){
 		stack<int> new_stack; new_stack.push(i);
 		blocks.push_back(make_pair(i, new_stack));
 	}
